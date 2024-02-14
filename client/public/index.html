@@ -10,10 +10,27 @@
 </head>
 
 <body>
-        <div id="root">
-            <h1>Welcome team, let's begin our project! 🚀</h1>
-        </div>
-<script src="index.js"></script>        
+    <nav>
+        <ul class="sidebar">
+            <li onclick= showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="">Analytics</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Dashboard</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Login</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Fin-App</a></li>
+            <li class="hideOnMobile"><a href="">Analytics</a></li>
+            <li class="hideOnMobile"><a href="">Products</a></li>
+            <li class="hideOnMobile"><a href="">Dashboard</a></li>
+            <li class="hideOnMobile"><a href="">About</a></li>
+            <li class="hideOnMobile"><a href="">Login</a></li>
+            <li onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+<script src="src/index.js"></script>       
 </body>
 
 </html>
